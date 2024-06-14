@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/icon.png" sizes="1024x1024"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style>
+			html{
+				font-family: 'Helvetica', sans-serif;
+				background-color: rgb(233, 224, 231);
+				padding-top: 10vh;
+				padding-left: 10vh;
+				padding-right: 5vh;
+			}
+
+			/* Styles généraux de la barre de défilement */
+			::-webkit-scrollbar {
+				width: 12px; /* Largeur de la barre de défilement */
+			}
+
+			/* Styles de la piste de la barre de défilement */
+			::-webkit-scrollbar-track {
+				background: #f1f1f1; /* Couleur de fond de la piste */
+			}
+
+			/* Styles du curseur de la barre de défilement */
+			::-webkit-scrollbar-thumb {
+				background: #888; /* Couleur de fond du curseur */
+				border-radius: 6px; /* Arrondi des coins du curseur */
+			}
+
+			/* Styles des boutons de défilement (si activés) */
+			::-webkit-scrollbar-button {
+				display: none; /* Masque les boutons de défilement */
+			}
+
+		</style>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
