@@ -76,7 +76,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2em;
+    padding-right: 10vh;
+		padding-left: 30vh;
+      flex-wrap: wrap;
+      gap: 10px;
   }
 
   .contact {

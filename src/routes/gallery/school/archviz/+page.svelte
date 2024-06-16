@@ -1,6 +1,6 @@
 <script>
 	let imageLinks = [
-		{ name: '/Ecole/Archiv/Procedes/DinhChristine_ARCHVIZ_beauty_1-_1_.jpeg', text: 'romgnomgnom' },
+		{ name: '/Ecole/Archiv/Procedes/DinhChristine_ARCHVIZ_beauty_1-_1_.jpeg', text: '' },
 		{ name: '/Ecole/Archiv/Procedes/DinhChristine_ARCHVIZ_beauty_1-_2_.jpeg', text: '' },
 		{ name: '/Ecole/Archiv/Procedes/DinhChristine_ARCHVIZ_beauty_1.jpeg', text: '' },
 		{ name: '/Ecole/Archiv/Procedes/DinhChristine_ArchViz_Daylight.jpg', text: '' },

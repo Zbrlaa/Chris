@@ -1,38 +1,41 @@
 <script>
-	// Liste des images et leurs liens respectifs
-	let imageLinks = [
-		{ name: '/Ecole/Projet_metro/Miniature/Projet_metro_001.jpeg', link: '/gallery/school/metro'},
-		{ name: '/Ecole/Projet_arcane/Miniature/Arcane.jpeg', link: '/gallery/school/arcane'},
-		{ name: '/Ecole/Projet_road/Miniature/Projet_route_001.jpeg', link: '/gallery/school/road'},
-		{ name: '/Ecole/Archiv/Miniature/DinhChristine_ArchViz_Nightlight.jpg', link: '/gallery/school/archiv' },
-		{ name: '/Ecole/Exercice_nuke/Miniature/Dinh_Christine-sh030-out.1100.jpg', link: '/gallery/school/nuke'},
-		{ name: '/Ecole/Projet_fin_anne/Miniature/shot_11.jpg', link: '/gallery/school/anne'}
+	//let imageLinks = [{name :, text : }];
+
+	let ytb = [
+		"https://www.youtube-nocookie.com/embed/45WZJjqxBXw?si=0d7qzSBuH-HcbsfO",
+		"https://www.youtube-nocookie.com/embed/ErPvbN2Nmco?si=0d7qzSBuH-HcbsfO"
 	];
 </script>
 
 <svelte:head>
-  <title>School Projects</title>
+  <title>Nuke</title>
 </svelte:head>
 
 <div class="container">
 	<div class="top">
-		<h1>School Projects</h1>
+		<h1>Nuke</h1>
 	</div>
 	<div class="images">
-		{#each imageLinks as { name, link }}
-			<a href={link}>
+		<!--
+		{#each imageLinks as {name, text}}
+			<div class="a">
 				<img src="{name}" alt="{name}">
-			</a>
+				<p>{text}</p>
+			</div>
+		{/each}
+		-->
+		{#each ytb as name}
+			<iframe width="60%" height="500" src={name} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 		{/each}
 	</div>
 </div>
 
 <style>
-h1{
+	h1{
 		font-family: 'Helvetica', sans-serif;
 		padding-bottom: 2vh;
-}
-.container{
+	}
+	.container{
 		flex-direction: column;
 		justify-content: space-around;
 		display: flex;
@@ -43,25 +46,34 @@ h1{
 	}
 	.images{
 		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
-		justify-content: space-evenly;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
 	}
-	a{
-		max-width: 35%;
+	/*
+	.a{
+		max-width: 60%;
 		display: inline-block;
 		text-align: center;
 		margin-top: 2vh;
-	}
-	a:hover img {
-		transform: scale(1.1);
+		cursor: pointer;
 	}
 	img{
 		max-width: 100%;
+    	max-height: 100%;
 		height: auto;
 		display: block;
 		transition: transform 0.3s ease;
 		padding: 5px;
 		border: 1px solid #ccc;
 	}
+	*/
+	iframe{
+		margin-top: 2vh;
+		max-width: 100%;
+		padding: 5px;
+		margin-left: 10px;
+		border: 1px solid #ccc;
+	}
+
 </style>

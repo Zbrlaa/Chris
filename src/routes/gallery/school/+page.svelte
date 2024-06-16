@@ -1,9 +1,6 @@
 <script>
 	// Liste des images et leurs liens respectifs
 	let imageLinks = [
-		{ name: '/Ecole/Projet_metro/Miniature/Projet_metro_001.jpeg', link: '/gallery/school/metro'},
-		{ name: '/Ecole/Projet_arcane/Miniature/Arcane.jpeg', link: '/gallery/school/arcane'},
-		{ name: '/Ecole/Projet_road/Miniature/Projet_route_001.jpeg', link: '/gallery/school/road'},
 		{ name: '/Ecole/Archiv/Miniature/DinhChristine_ArchViz_Nightlight.jpg', link: '/gallery/school/archviz' },
 		{ name: '/Ecole/Exercice_nuke/Miniature/Dinh_Christine-sh030-out.1100.jpg', link: '/gallery/school/nuke'},
 		{ name: '/Ecole/Projet_fin_anne/Miniature/shot_11.jpg', link: '/gallery/school/anne'}

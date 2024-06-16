@@ -5,19 +5,17 @@
 <div class="container">
 	<div class="top-elmt">
 		<h1>Demoreel</h1>
-		<p>Mon site nanani</p>
 	</div>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/I7PVRuWzeKY?si=xEt5JPn_q1RKVUbD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<iframe src="https:www.youtube.com/embed/I7PVRuWzeKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 	</div>
 </div>
 
 <style>
-h1{
-	    background-color: #ab98bb;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+	h1{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 	.top-elmt{
 		font-size: 20px;
 		text-align: center;

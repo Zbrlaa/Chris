@@ -8,12 +8,12 @@
 </script>
 
 <svelte:head>
-  <title>Business Projects</title>
+  <title>Work Projects</title>
 </svelte:head>
 
 <div class="container">
 	<div class="top">
-		<h1>Business Projects</h1>
+		<h1>Work Projects</h1>
 	</div>
 	<div class="images">
 		{#each imageLinks as { name, link }}
@@ -35,14 +35,14 @@
 		justify-content: space-around;
 		display: flex;
 		padding-right: 5vh;
-		padding-left: 20vh;
+		padding-left: 30vh;
 		flex-wrap: wrap;
 		gap: 10px;
 	}
 
 	.images{
 		width: auto;
-		height: 20%;
+		height: 100%;
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
@@ -50,8 +50,7 @@
 	}
 
 	a{
-		width: auto;
-		height: 100%;
+		width: 40%;
 		display: inline-block;
 		text-align: center;
 		padding-top: 2vh;
@@ -59,6 +58,7 @@
 	a:hover img {
         transform: scale(1.1);
     }
+
 	img{
 		width: 100%;
 		max-height: 100%;

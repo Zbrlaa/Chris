@@ -1,18 +1,31 @@
 <script>
 	let imageLinks = [
-		{ name: '/Ecole/Projet_fin_anne/Procedes/shot_9.jpeg', text: 'romgnomgnom' },
+		{ name: '/Ecole/Projet_fin_anne/ref2.jpg', text: 'Reference' },
+
+		{ name: '/Ecole/Projet_fin_anne/Procedes/shot_9.jpeg', text: '' },
 		{ name: '/Ecole/Projet_fin_anne/Procedes/shot_10.jpeg', text: '' },
 		{ name: '/Ecole/Projet_fin_anne/Procedes/shot_11.jpeg', text: '' }
+	];
+
+	let ytb = [
+	"https://www.youtube-nocookie.com/embed/CeCC7YnPcA0?si=0d7qzSBuH-HcbsfO",
+	"https://www.youtube-nocookie.com/embed/Di7hA2amuoI?si=0d7qzSBuH-HcbsfO",
+	"https://www.youtube-nocookie.com/embed/2EWh3ZrxdUQ?si=0d7qzSBuH-HcbsfO",
+
+	"https://www.youtube-nocookie.com/embed/sB16GXrd7l8?si=0d7qzSBuH-HcbsfO",
+	"https://www.youtube-nocookie.com/embed/7CG50G2Yuzc?si=0d7qzSBuH-HcbsfO",
+	"https://www.youtube-nocookie.com/embed/6irmcaQbl4I?si=0d7qzSBuH-HcbsfO",
+	"https://www.youtube-nocookie.com/embed/KKIuRPZL8GM?si=0d7qzSBuH-HcbsfO"
 	];
 </script>
 
 <svelte:head>
-  <title>Anne</title>
+  <title>Kubo Movie</title>
 </svelte:head>
 
 <div class="container">
 	<div class="top">
-		<h1>Anne</h1>
+		<h1>Kubo Movie</h1>
 	</div>
 	<div class="images">
 		{#each imageLinks as {name, text}}
@@ -20,6 +33,9 @@
 				<img src="{name}" alt="{name}">
 				<p>{text}</p>
 			</div>
+		{/each}
+		{#each ytb as name}
+			<iframe width="60%" height="500" src={name} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 		{/each}
 	</div>
 </div>
@@ -58,6 +74,13 @@
 		display: block;
 		transition: transform 0.3s ease;
 		padding: 5px;
+		border: 1px solid #ccc;
+	}
+	iframe{
+		margin-top: 2vh;
+		max-width: 100%;
+		padding: 5px;
+		margin-left: 10px;
 		border: 1px solid #ccc;
 	}
 </style>

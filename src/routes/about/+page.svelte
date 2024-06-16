@@ -34,12 +34,16 @@
         justify-content: space-around;
 		display: flex;
 		padding-right: 10vh;
-		padding-left: 20vh;
+		padding-left: 30vh;
         flex-wrap: wrap;
         gap: 10px;
 	}
 	.CV{
 		height: 80vh;
+	}
+	.txt{
+		margin-left: 18%;
+		margin-right: 18%;
 	}
 	img{
 		height: 100%;
