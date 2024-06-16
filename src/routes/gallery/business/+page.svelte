@@ -35,7 +35,7 @@
 		justify-content: space-around;
 		display: flex;
 		padding-right: 5vh;
-		padding-left: 30vh;
+		padding-left: 20vh;
 		flex-wrap: wrap;
 		gap: 10px;
 	}

@@ -19,7 +19,10 @@
 		{ name: '/Entreprise/Mapping_barcares/Procedes/Livre/18.png', text: '' },
 	];
 
-	let ytb = ["https://www.youtube-nocookie.com/embed/437q3kr8dN8"];
+	let ytb = [
+		"https://www.youtube-nocookie.com/embed/437q3kr8dN8",
+		"https://www.youtube-nocookie.com/embed/F9HCM8KBWKo"
+		];
 </script>
 
 <svelte:head>
@@ -83,14 +86,14 @@
 	}
 	.images{
 		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
+		flex-direction: column;
+		flex-wrap: nowrap;
 		align-items: center;
 		justify-content: space-evenly;
 	}
 	.a{
 		margin : 5px;
-		max-width: 60%;
+		max-width: 40%;
 		display: inline-block;
 		text-align: center;
 		margin-top: 2vh;

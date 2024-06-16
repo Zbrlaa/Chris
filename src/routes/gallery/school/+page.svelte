@@ -25,11 +25,11 @@
 </div>
 
 <style>
-h1{
-		font-family: 'Helvetica', sans-serif;
-		padding-bottom: 2vh;
-}
-.container{
+	h1{
+			font-family: 'Helvetica', sans-serif;
+			padding-bottom: 2vh;
+	}
+	.container{
 		flex-direction: column;
 		justify-content: space-around;
 		display: flex;
