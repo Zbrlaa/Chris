@@ -2,8 +2,8 @@
 	//let imageLinks = [{name :, text : }];
 
 	let ytb = [
-		"https://www.youtube-nocookie.com/embed/45WZJjqxBXw?si=0d7qzSBuH-HcbsfO",
-		"https://www.youtube-nocookie.com/embed/ErPvbN2Nmco?si=0d7qzSBuH-HcbsfO"
+		"https://www.youtube-nocookie.com/embed/45WZJjqxBXw",
+		"https://www.youtube-nocookie.com/embed/ErPvbN2Nmco"
 	];
 </script>
 

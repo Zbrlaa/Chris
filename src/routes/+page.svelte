@@ -7,7 +7,7 @@
 		<h1>Demoreel</h1>
 	</div>
 	<div class="video-container">
-		<iframe src="https:www.youtube.com/embed/I7PVRuWzeKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<iframe width="60%" height="500" src="https://www.youtube-nocookie.com/embed/I7PVRuWzeKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 	</div>
 </div>
 
