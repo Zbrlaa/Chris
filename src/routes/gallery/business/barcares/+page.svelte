@@ -40,10 +40,34 @@
 		{#each ytb as name}
 			<iframe width="60%" height="500" src={name} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 		{/each}
+		<a href="/gallery/business" class="back-button">Back to gallery</a>
 	</div>
 </div>
 
 <style>
+	.back-button {
+		margin: 5px;
+		margin-top: 20px;
+		display: inline-block;
+		padding: 10px 15px;
+		font-size: 16px;
+		color: #000000;
+		background-color: #dacece;
+		border: none;
+		border-radius: 5px;
+		text-decoration: none;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #8a8a8a;
+    }
+
+    .back-button::before {
+      content: '←'; /* Unicode for left arrow */
+      margin-right: 8px;
+    }
 	h1{
 		font-family: 'Helvetica', sans-serif;
 		padding-bottom: 2vh;
